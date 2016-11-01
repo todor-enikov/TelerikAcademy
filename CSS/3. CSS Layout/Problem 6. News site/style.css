@@ -1,0 +1,55 @@
+body {
+    background-color: #1E3741;
+    font-family: Arial;
+}
+
+nav ul, section ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav a {
+    float: left;
+    text-decoration: none;
+    color: #b7d5de;
+    background-color: #4B5F67;
+    padding: 0.7em;
+    margin: 2px 2px 10px 0;
+}
+
+#sport {
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #1E3741;
+}
+
+section {
+    float: left;
+    width: 285px;
+}
+
+section ul li {
+    padding: 10px;
+    border-bottom: 1px solid #b7d5de;
+}
+
+section a {
+    text-decoration: none;
+    color: white;
+}
+
+section ul li:hover {
+    color: white;
+    background-color: #00968C;
+}
+
+aside img {
+    width: 400px;
+    height: 280px;
+}

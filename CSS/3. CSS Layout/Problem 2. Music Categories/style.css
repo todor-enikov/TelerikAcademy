@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 10px;
+}
+
+div {
+    width: 400px;
+    height: 140px;
+    background-color: white;
+    margin: 10px;
+}
+
+img {
+    width: 140px;
+    height: 100px;
+    float: left;
+    padding-top: 20px;
+}
+
+input {
+    float: right;
+    margin: 2px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-left: 150px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+span {
+    font-weight: bold;
+}

@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #3B3B3B;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+header nav ul li:first-of-type{
+    padding-bottom: 2px;
+    position: relative;
+    top: 15px;
+}
+
+header nav ul li:last-of-type{
+    padding-bottom: 2px;
+    position: relative;
+    top: 15px;
+}
+h3 {
+    padding-left: 40px;
+    font-size: 200%;
+    color: greenyellow;
+}
+
+.members {
+    font-size: 150%;
+    color: white;
+}
+
+div {
+    width: 600px;
+    padding-left: 40px;
+}
+
+p {
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: white;
+}

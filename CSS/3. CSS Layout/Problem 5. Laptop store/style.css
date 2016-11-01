@@ -1,0 +1,54 @@
+body {
+    font-family: Corbel;
+    font-weight: bold;
+}
+#container{
+    width:740px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+nav {
+    font-size: x-large;
+    border-bottom: 2px solid;
+    text-align: center;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #28d4ca;
+}
+
+fieldset {
+    float: left;
+    width: 250px;
+    padding:6px 0 0 0;
+    margin: 0 5px 5px 5px;
+}
+
+img {
+    margin-bottom: 15px;
+}
+
+div {
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+
+legend {
+    text-align: center;
+}
+
+section {
+    width: 530px;
+    float: left;
+    border: 2px solid #000000;
+    margin: 5px;
+    overflow: auto;
+}
+
+aside {
+    display:inline-block;
+    margin-top:10%;
+}

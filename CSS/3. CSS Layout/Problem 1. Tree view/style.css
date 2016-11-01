@@ -1,0 +1,17 @@
+span:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li ul {
+    color: aqua;
+    margin-left: -20px;
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+}
