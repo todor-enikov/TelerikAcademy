@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Fill the matrix", "Fill the matrix\01.Fill the matrix.csproj", "{5AC93829-934E-4BC8-B059-C058D66CAE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Maximal sum", "Maximal sum\02.Maximal sum.csproj", "{81B88643-07D9-41C7-A7D8-017A3AB63FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequence in matrix", "Sequence in matrix\Sequence in matrix.csproj", "{6D1F2934-40DD-413D-A90B-1B8DBCF3E51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largest area in matrix", "Largest area in matrix\Largest area in matrix.csproj", "{F56F43CC-E50E-41D1-B485-D9BBCB36220D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AC93829-934E-4BC8-B059-C058D66CAE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC93829-934E-4BC8-B059-C058D66CAE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC93829-934E-4BC8-B059-C058D66CAE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC93829-934E-4BC8-B059-C058D66CAE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B88643-07D9-41C7-A7D8-017A3AB63FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B88643-07D9-41C7-A7D8-017A3AB63FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B88643-07D9-41C7-A7D8-017A3AB63FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B88643-07D9-41C7-A7D8-017A3AB63FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1F2934-40DD-413D-A90B-1B8DBCF3E51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1F2934-40DD-413D-A90B-1B8DBCF3E51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1F2934-40DD-413D-A90B-1B8DBCF3E51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1F2934-40DD-413D-A90B-1B8DBCF3E51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56F43CC-E50E-41D1-B485-D9BBCB36220D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56F43CC-E50E-41D1-B485-D9BBCB36220D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56F43CC-E50E-41D1-B485-D9BBCB36220D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56F43CC-E50E-41D1-B485-D9BBCB36220D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
