@@ -1,0 +1,35 @@
+table {
+    background-color: darkcyan
+}
+
+th {
+    color: aqua
+}
+
+tr td:nth-child(2n+1) {
+    color: white;
+    font-style: italic
+}
+
+.parker {
+    color: yellowgreen;
+    content: "•";
+    padding-right: 8px;
+}
+
+.red {
+    color: red
+}
+
+.yellow {
+    color: yellowgreen
+}
+
+.aqua {
+    color: aqua
+}
+
+* {
+    padding: 0;
+    margin: 0
+}
