@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<albums>
+  <album>
+    <name>The best songs in the world</name>
+    <artist>2 Pac</artist>
+    <year>2017</year>
+    <producer>Michael Jacksona na kroasanite</producer>
+    <price>1 000 000</price>
+    <songs>
+      <song>
+        <title>Beer pong</title>
+        <duration>3.25 min</duration>
+      </song>
+      <song>
+        <title>Rakia time</title>
+        <duration>1.48 min</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>The worst songs in the world</name>
+    <artist>3 Pac</artist>
+    <year>2054</year>
+    <producer>Michael Jacksona na kroasanite</producer>
+    <price>100 000</price>
+    <songs>
+      <song>
+        <title>Kasa bira</title>
+        <duration>3.25 min</duration>
+      </song>
+      <song>
+        <title>Damadjana vino</title>
+        <duration>1.48 min</duration>
+      </song>
+    </songs>
+  </album>
+</albums>

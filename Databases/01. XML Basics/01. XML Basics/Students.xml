@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--1. In computing, Extensible Markup Language (XML) is a markup language 
+that defines a set of rules for encoding documents in a format that is 
+both human-readable and machine-readable. The W3C's XML 1.0 Specification 
+and several other related specifications, — all of them free open standards—define XML.-->
+<!--Second task-->
+<students xmlns="urn:students">
+  <student>
+    <name>Gosho</name>
+    <sex>Male</sex>
+    <birthDate>17.10.2016</birthDate>
+    <phone>0878848392</phone>
+    <email>Gosho@pich.bg</email>
+    <course>1</course>
+    <speciality>The biggest programmer!</speciality>
+    <facultyNumber>12423212</facultyNumber>
+    <takenExams>
+      <exam>
+        <name>Math</name>
+        <tutor>Pesho Daskalov</tutor>
+        <score>300</score>
+        <enrollment>
+          <dateOfExam>17.10.2016</dateOfExam>
+          <examScore>500</examScore>
+          <teacherEndorsement>No</teacherEndorsement>
+        </enrollment>
+      </exam>
+      <exam>
+        <name>Database</name>
+        <tutor>Gospodin Daskalov</tutor>
+        <score>300</score>
+        <enrollment>
+          <dateOfExam>17.10.2016</dateOfExam>
+          <examScore>500</examScore>
+          <teacherEndorsement>Yes</teacherEndorsement>
+        </enrollment>
+      </exam>
+    </takenExams>
+  </student>
+  <student>
+    <name>Ivan</name>
+    <sex>Male</sex>
+    <birthDate>17.10.2016</birthDate>
+    <phone>0878648392</phone>
+    <email>Ivan@pich.bg</email>
+    <course>1</course>
+    <speciality>The smallest programmer!</speciality>
+    <facultyNumber>12423212</facultyNumber>
+    <takenExams>
+      <exam>
+        <name>Math</name>
+        <tutor>Pesho Daskalov</tutor>
+        <score>300</score>
+        <enrollment>
+          <dateOfExam>17.10.2016</dateOfExam>
+          <examScore>500</examScore>
+          <teacherEndorsement>No</teacherEndorsement>
+        </enrollment>
+      </exam>
+      <exam>
+        <name>Database</name>
+        <tutor>Gospodin Daskalov</tutor>
+        <score>300</score>
+        <enrollment>
+          <dateOfExam>17.10.2016</dateOfExam>
+          <examScore>500</examScore>
+          <teacherEndorsement>Yes</teacherEndorsement>
+        </enrollment>
+      </exam>
+    </takenExams>
+  </student>
+</students>
+<!--Third task
+XML namespaces are used for providing uniquely named elements and attributes in 
+an XML document. They are defined in a W3C recommendation.
+Fourth task is completed! :)-->
