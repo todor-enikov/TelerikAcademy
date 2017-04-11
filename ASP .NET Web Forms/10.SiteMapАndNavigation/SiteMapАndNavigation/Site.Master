@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SiteMapАndNavigation.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <div class="page">
+            <div class="header">
+                <div class="title">
+                    <h1>SiteMap and Navigation - Homework</h1>
+                </div>
+                <div class="clear hideSkiplink">
+                    <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" SkipLinkText=""
+                        EnableViewState="False" IncludeStyleBlock="False" Orientation="Vertical"
+                        DataSourceID="SiteMapDataSource">
+                    </asp:Menu>
+                    <asp:SiteMapPath ID="SiteMapPathBreadcrump" runat="server" />
+                </div>
+            </div>
+            <div class="main">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+        </div>
+    </form>
+    <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
+</body>
+</html>
